@@ -76,7 +76,7 @@ Do incentives build robustness in BitTorrent? [ [pdf ](http://www.cs.washington.
 
 4th USENIX Symposium on Networked Systems Design & Implementation ([NSDI 2007](http://www.usenix.org/events/nsdi07/index.html)).
 
-A poster and talk regarding BitTyrant were presented in the 2006 UW CSE Affiliates meeting.
+A [poster](http://www.cs.washington.edu/homes/piatek/papers/BitTyrant_affiliates.pdf) and talk regarding BitTyrant were presented in the 2006 UW CSE [Affiliates meeting](http://www.cs.washington.edu/affiliates/meetings/mtg0607.html).
 
 ## People
 
