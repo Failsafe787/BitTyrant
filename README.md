@@ -19,9 +19,9 @@ BitTyrant is a new, protocol compatible BitTorrent client that is optimized for 
 
 BitTyrant is...
 
-* Fast – During evaluation testing on more than 100 real BitTorrent swarms, BitTyrant provided an average 70% download performance increase when compared to the existing Azureus 2.5 implementation, with some downloads finishing more than three times as quickly.
-* Fair – BitTorrent was designed with incentives in mind: if a user is downloading at 30 KBps, they should upload at 30 KBps. However, due to the unique workload properties of many real-world swarms, this is not always enforced. BitTyrant is designed to make efficient use of your scarce upload bandwidth, rewarding those users whose upload allocations are fair and only allocating excess capacity to other users. 
-* Familiar – BitTyrant is based on modifications to Azureus 2.5, currently the most popular BitTorrent client. All of our changes are under the hood. You’ll find the GUI identical to Azureus, with optional additions to display statistics relevant to BitTyrant’s operation.
+* *Fast* – During evaluation testing on more than 100 real BitTorrent swarms, BitTyrant provided an average 70% download performance increase when compared to the existing Azureus 2.5 implementation, with some downloads finishing more than three times as quickly.
+* *Fair* – BitTorrent was designed with incentives in mind: if a user is downloading at 30 KBps, they should upload at 30 KBps. However, due to the unique workload properties of many real-world swarms, this is not always enforced. BitTyrant is designed to make efficient use of your scarce upload bandwidth, rewarding those users whose upload allocations are fair and only allocating excess capacity to other users. 
+* *Familiar* – BitTyrant is based on modifications to Azureus 2.5, currently the most popular BitTorrent client. All of our changes are under the hood. You’ll find the GUI identical to Azureus, with optional additions to display statistics relevant to BitTyrant’s operation.
 
 For details about these claims, check out the information below.
 
@@ -29,11 +29,11 @@ For details about these claims, check out the information below.
 
 *Q: Isn't BitTyrant just another leeching client?*
 
-No. BitTyrant does not change the amount of data uploaded, just which peers receive that data. Specifically, peers which upload more to you get more of your bandwidth. When all peers use the BitTyrant client as released, performance improves for the entire swarm. The details of this are explained further below. In our paper, we consider situations in which peers use clients which attempt to both maximize performance and conserve upload contribution, but BitTyrant, as released, attempts only to maximize performance.
+No. BitTyrant does not change the amount of data uploaded, just *which peers* receive that data. Specifically, peers which upload more to you get more of your bandwidth. When all peers use the BitTyrant client *as released*, performance improves for the entire swarm. The details of this are explained further below. In our paper, we consider situations in which peers use clients which attempt to both maximize performance and conserve upload contribution, but BitTyrant, as released, attempts only to maximize performance.
 
 *Q: How is BitTyrant different from existing BitTorrent clients?*
 
-BitTyrant differs from existing clients in its selection of which peers to unchoke and send rates to unchoked peers. Suppose your upload capacity is 50 KBps. If you’ve unchoked 5 peers, existing clients will send each peer 10 KBps, independent of the rate each is sending to you. In contrast, BitTyrant will rank all peers by their receive / sent ratios, preferentially unchoking those peers with high ratios. For example, a peer sending data to you at 20 KBps and receiving data from you at 10 KBps will have a ratio of 2, and would be unchoked before unchoking someone uploading at 10 KBps (ratio 1). Further, BitTyrant dynamically adjusts its send rate, giving more data to peers that can and do upload quickly and reducing send rates to others.
+BitTyrant differs from existing clients in its selection of *which peers to unchoke* and *send rates* to unchoked peers. Suppose your upload capacity is 50 KBps. If you’ve unchoked 5 peers, existing clients will send each peer 10 KBps, independent of the rate each is sending to you. In contrast, BitTyrant will rank all peers by their receive / sent ratios, preferentially unchoking those peers with high ratios. For example, a peer sending data to you at 20 KBps and receiving data from you at 10 KBps will have a ratio of 2, and would be unchoked before unchoking someone uploading at 10 KBps (ratio 1). Further, BitTyrant dynamically adjusts its send rate, giving more data to peers that can and do upload quickly and reducing send rates to others.
 
 *Q: Will BitTyrant work for cable / DSL users?*
 
