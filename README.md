@@ -64,10 +64,10 @@ Version: 1.1.1 (Released 7 September, 2007) ([changelog](http://bittyrant.cs.was
 
 | | | |
 |-|-|-|
-| ![OSX Logo](https://github.com/subwave07/BitTyrant/master/README.md_images/osx.jpg) | [Mac OS X disk image](http://bittyrant.cs.washington.edu/dist_090607/BitTyrant.dmg) (Req. 10.4) | MD5: 422de23cc335ffb1086e30329e337cde |
-| ![Windows Logo](https://github.com/subwave07/BitTyrant/master/README.md_images/windows.jpg) | [Windows installer](http://bittyrant.cs.washington.edu/dist_090607/Azureus_2.5.0.0_BitTyrant_Win32.setup.exe) | MD5: d7741898dcb73a5d600d797fc56f4dc4 |
-| ![Linux Logo](https://github.com/subwave07/BitTyrant/master/README.md_images/tux.jpg) | [32-bit Linux JAR](http://bittyrant.cs.washington.edu/dist_090607/BitTyrant-Linux32.tar.bz2) and [Installation instructions](http://azureus.sourceforge.net/howto_linux.php) | MD5: 44a65aa40d8a3e3aa2e90452522ec679 |
-| ![Linux Logo](https://github.com/subwave07/BitTyrant/master/README.md_images/tux.jpg) | [64-bit Linux JAR](http://bittyrant.cs.washington.edu/dist_090607/BitTyrant-Linux64.tar.bz2) | MD5: eafa51b8d6ee0c0f3309c738f1a63142 |
+| ![OSX Logo](https://raw.githubusercontent.com/subwave07/BitTyrant/master/README.md_images/osx.jpg) | [Mac OS X disk image](http://bittyrant.cs.washington.edu/dist_090607/BitTyrant.dmg) (Req. 10.4) | MD5: 422de23cc335ffb1086e30329e337cde |
+| ![Windows Logo](https://raw.githubusercontent.com/subwave07/BitTyrant/master/README.md_images/windows.jpg) | [Windows installer](http://bittyrant.cs.washington.edu/dist_090607/Azureus_2.5.0.0_BitTyrant_Win32.setup.exe) | MD5: d7741898dcb73a5d600d797fc56f4dc4 |
+| ![Linux Logo](https://raw.githubusercontent.com/subwave07/BitTyrant/master/README.md_images/tux.jpg) | [32-bit Linux JAR](http://bittyrant.cs.washington.edu/dist_090607/BitTyrant-Linux32.tar.bz2) and [Installation instructions](http://azureus.sourceforge.net/howto_linux.php) | MD5: 44a65aa40d8a3e3aa2e90452522ec679 |
+| ![Linux Logo](https://raw.githubusercontent.com/subwave07/BitTyrant/master/README.md_images/tux.jpg) | [64-bit Linux JAR](http://bittyrant.cs.washington.edu/dist_090607/BitTyrant-Linux64.tar.bz2) | MD5: eafa51b8d6ee0c0f3309c738f1a63142 |
 
 The BitTyrant source code is also [available](http://coblitz.codeen.org:3125/bittyrant.cs.washington.edu/dist_010807/BitTyrant-src.zip). Anonymous trace data collected during our study is available by request.
 
@@ -96,7 +96,7 @@ This work is supported by the [NSF](http://www.nsf.gov/) (CNS-0519696), the [ARC
 
 | | |
 |-|-|
-| [![Azureus Logo](https://github.com/subwave07/BitTyrant/master/README.md_images/azureus_splash.jpg)](http://azureus.sourceforge.net/) | BitTyrant is based on modifications to the Azureus 2.5 code base. |
-| [![Emulab Logo](https://github.com/subwave07/BitTyrant/master/README.md_images/emulab.jpg)](http://www.emulab.net/) | Initial testing of BitTyrant was conducted on the Emulab testbed. |
-| [![Planetlab Logo](https://github.com/subwave07/BitTyrant/master/README.md_images/planetlab.jpg)](http://www.planet-lab.org/) | BitTyrant’s wide-area evaluation was performed using the PlanetLab testbed. |
-| [![Coblitz Logo](https://github.com/subwave07/BitTyrant/master/README.md_images/coblitz.gif)](http://codeen.cs.princeton.edu/coblitz/) | The BitTyrant software distribution is mirrored using the CoBlitz file distribution service. |
+| [![Azureus Logo](https://raw.githubusercontent.com/subwave07/BitTyrant/master/README.md_images/azureus_splash.jpg)](http://azureus.sourceforge.net/) | BitTyrant is based on modifications to the Azureus 2.5 code base. |
+| [![Emulab Logo](https://raw.githubusercontent.com/subwave07/BitTyrant/master/README.md_images/emulab.jpg)](http://www.emulab.net/) | Initial testing of BitTyrant was conducted on the Emulab testbed. |
+| [![Planetlab Logo](https://raw.githubusercontent.com/subwave07/BitTyrant/master/README.md_images/planetlab.jpg)](http://www.planet-lab.org/) | BitTyrant’s wide-area evaluation was performed using the PlanetLab testbed. |
+| [![Coblitz Logo](https://raw.githubusercontent.com/subwave07/BitTyrant/master/README.md_images/coblitz.gif)](http://codeen.cs.princeton.edu/coblitz/) | The BitTyrant software distribution is mirrored using the CoBlitz file distribution service. |
