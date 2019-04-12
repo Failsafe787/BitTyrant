@@ -1,8 +1,10 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/subwave07/BitTyrant/master/README.md_images/header.jpg"><br/><br/>
-</p>
+***This is a backup mirror of the client source code I had on my computer, currently unavailable for download at the [official website](http://bittyrant.cs.washington.edu) of this project.***
+
+***I ([subwave07](https://github.com/subwave07)) am neither one of the developers nor I have contibuited to this project in any way. All the credits go to the original developers.
+The following text is the recreation of the project's webpage based on a snaphsot taken on April 12, 2019.***
 
 <p align="center">
+  <img src="https://raw.githubusercontent.com/subwave07/BitTyrant/master/README.md_images/header.jpg"><br/>
   <a href="#overview">Overview</a> |
   <a href="#screenshot">Screenshot</a> |
   <a href="#downloads">Downloads</a> |
@@ -11,10 +13,6 @@
   <a href="#acknowledgments">Acknowledgments</a> |
   <a href="http://bittyrant.cs.washington.edu/press.html">Press</a>
 </p>
-
-***This is a backup mirror of the client source code, currently unavailable for download at the [official website](http://bittyrant.cs.washington.edu) of this project.
-I ([subwave07](https://github.com/subwave07)) am neither one of the developers nor I have contibuited to this project in any way. All the credits go to the original developers.
-The following text is the recreation of the webpage of the project snapshot***
 
 ## Overview
 BitTyrant is a new, protocol compatible BitTorrent client that is optimized for fast download performance. 
